@@ -30,6 +30,13 @@ htmltools::tagList(
 
 ![](images/happgit-screenshot.png){width="820"}
 
+## Your turn
+
+- Create a Github account
+- Create a temporary folder somewhere on your computer to store what we will do today
+- Download the slides: https://github.com/astamm/git-workshop/blob/master/git-workshop-build.html
+- Open the HTML slides in Google Chrome
+
 # What and why Git ?
 
 ## Git - History Tracker {.flexbox .vcenter}
@@ -120,6 +127,12 @@ git config --global user.name 'Jane Doe'
 git config --global user.email 'jane@example.com'
 ```
 substituting your name and **the email associated with your GitHub account**.
+
+## Your turn
+
+- Download the slides: https://github.com/astamm/git-workshop/blob/master/git-workshop-build.html
+- Open the HTML slides in Google Chrome
+- Open a terminal (macOS or Linux) or Git Bash app on Windows and introduce yourself to Git
 
 # The Git Jargon
 
@@ -421,6 +434,13 @@ Which do you prefer ?
 
 **DEMO**
 
+## Your turn
+
+- Download the slides: https://github.com/astamm/git-workshop/blob/master/git-workshop-build.html
+- Open the HTML slides in Google Chrome
+- Open a terminal (macOS or Linux) or Git Bash app on Windows and introduce yourself to Git
+- Install [GitKraken](https://www.gitkraken.com/) and open it as well (take time to answer the initial questions)
+
 # Going live
 
 ## Ways to go live
@@ -461,6 +481,15 @@ GitHub will no longer bother you with credentials after that.
 - Allow tools to store and retrieve your credentials from the Git credential store.
 
 **DEMO**
+
+## Your turn
+
+- Download the slides: https://github.com/astamm/git-workshop/blob/master/git-workshop-build.html
+- Open the HTML slides in Google Chrome
+- Open a terminal (macOS or Linux) or Git Bash app on Windows and introduce yourself to Git
+- Install [GitKraken](https://www.gitkraken.com/) and open it as well (take time to answer the initial questions)
+- Go to GitHub and fork the `astamm/git-workshop` repo in your account
+- Clone the repo from your account on your computer (via GitKraken)
 
 ## Different contexts
 
@@ -556,6 +585,22 @@ In other words:
 
 - before a coding session, make your masters and branches up to date.
 - at the end of your coding section, every file that has been created or modified should be committed and pushed in the corresponding branch.
+
+## Your turn
+
+- Download the slides: https://github.com/astamm/git-workshop/blob/master/git-workshop-build.html
+- Open the HTML slides in Google Chrome
+- Open a terminal (macOS or Linux) or Git Bash app on Windows and introduce yourself to Git
+- Install [GitKraken](https://www.gitkraken.com/) and open it as well (take time to answer the initial questions)
+- Go to GitHub and fork the `astamm/git-workshop` repo in your account
+- From GitKraken
+
+  - Clone the repo from your account on your computer (via GitKraken)
+  - Create a branch `YOU-intro`, where `YOU` should be replaced with your name (lower case)
+  - Switch to this branch
+- Add a `.txt` file that contains your name, email adress and computer skill learning interests.
+- Stage, commit and push the file on the branch `YOU-intro` (from GitKraken)
+- Make a pull request to my workshop repo (from GitHub)
 
 ## The Maintainer
 
